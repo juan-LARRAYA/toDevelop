@@ -1,0 +1,184 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <header>Technical Documentation</header>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+        <a class="nav-link" href="#HTML_Basics">HTML Basics</a>
+        <a class="nav-link" href="#CSS_Fundamentals">CSS Fundamentals</a>
+        <a class="nav-link" href="#JavaScript_Overview">JavaScript Overview</a>
+        <a class="nav-link" href="#Conclusion">Conclusion</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-doc">
+        <!-- Section 1 -->
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <p>This section introduces the basic concepts of web development.</p>
+            <p>Understanding these concepts is essential for anyone beginning their journey in the field of web development.</p>
+            <p>We will cover a variety of topics from HTML, CSS, to JavaScript.</p>
+            <p>Let's dive in!</p>
+        </section>
+
+        <!-- Section 2 -->
+        <section class="main-section" id="HTML_Basics">
+            <header>HTML Basics</header>
+            <p>HTML stands for HyperText Markup Language.</p>
+            <p>It is the standard language for creating web pages and web applications.</p>
+            <p>HTML elements are the building blocks of HTML pages.</p>
+            <p>Here is an example of a simple HTML structure:</p>
+            <code>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;</code>
+            <p>HTML documents are made up of elements represented by tags.</p>
+            <code>&lt;p&gt;This is a paragraph.&lt;/p&gt;</code>
+        </section>
+
+        <!-- Section 3 -->
+        <section class="main-section" id="CSS_Fundamentals">
+            <header>CSS Fundamentals</header>
+            <p>CSS stands for Cascading Style Sheets.</p>
+            <p>It describes how HTML elements are to be displayed on screen, paper, or in other media.</p>
+            <p>CSS saves a lot of work by controlling the layout of multiple web pages all at once.</p>
+            <ul>
+                <li>Selectors</li>
+                <li>Properties</li>
+                <li>Values</li>
+                <li>Box Model</li>
+                <li>Flexbox and Grid</li>
+            </ul>
+            <p>Below is an example of a CSS rule:</p>
+            <code>body { margin: 0; padding: 0; }</code>
+            <p>CSS rules are made up of a selector and a declaration block.</p>
+            <code>h1 { color: blue; }</code>
+        </section>
+
+        <!-- Section 4 -->
+        <section class="main-section" id="JavaScript_Overview">
+            <header>JavaScript Overview</header>
+            <p>JavaScript is a programming language that allows you to implement complex features on web pages.</p>
+            <p>It is the third layer of the layer cake of standard web technologies, after HTML and CSS.</p>
+            <p>Here is a basic JavaScript example:</p>
+            <code>console.log('Hello World!');</code>
+            <p>You can use JavaScript to manipulate HTML elements:</p>
+            <code>document.getElementById('demo').innerHTML = 'Hello JavaScript!';</code>
+        </section>
+
+        <!-- Section 5 -->
+        <section class="main-section" id="Conclusion">
+            <header>Conclusion</header>
+            <p>By now, you should have a fundamental understanding of HTML, CSS, and JavaScript.</p>
+            <p>This knowledge forms the foundation of web development.</p>
+            <p>Keep practicing and experimenting with these technologies!</p>
+            <ul>
+                <li>HTML for content structure</li>
+                <li>CSS for styling and layout</li>
+                <li>JavaScript for dynamic behavior</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    margin: 0;
+    height: 100vh;
+}
+
+/* Navbar Styling */
+#navbar {
+    background-color: #333;
+    color: white;
+    width: 200px;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    overflow: auto;
+}
+
+#navbar header {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.nav-link {
+    color: white;
+    display: block;
+    margin: 5px 0;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styling */
+#main-doc {
+    margin-left: 220px;
+    padding: 10px;
+    width: calc(100% - 220px);
+}
+
+/* Section Styling */
+.main-section {
+    margin-bottom: 40px;
+}
+
+.main-section header {
+    font-size: 1.25em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Code Styling */
+code {
+    background-color: #f4f4f4;
+    padding: 2px 4px;
+    border-radius: 3px;
+    display: block;
+    margin: 10px 0;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 450px) {
+    #navbar {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    #main-doc {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+
+** end of undefined **
+
